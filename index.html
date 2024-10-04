@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>CV của Hàng Kỳ Thiệu</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #fffdd0; /* Màu kem */
+            color: #333333;
+        }
+        .header {
+            background-color: #f5e6cc;
+            color: #333333;
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            position: relative;
+            z-index: 1;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #ffffff;
+        }
+        .sidebar {
+            flex: 1 1 30%;
+            background-color: #f9f2e7;
+            color: #333333;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .content {
+            flex: 1 1 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section {
+            margin-bottom: 30px;
+            border: 2px solid #b08d57;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section-title {
+            color: #b08d57;
+            border-bottom: 2px solid #b08d57;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info p, .skills ul, .languages ul {
+            margin: 5px 0;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar, .content {
+                flex: 1 1 100%;
+            }
+        }
+        /* Font chữ */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hàng Kỳ Thiệu</h1>
+        <p>Sinh viên ngành Khoa học máy tính SGU</p>
+    </div>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Thông tin liên hệ trong khung chữ nhật -->
+            <div class="section">
+                <h2 class="section-title">Thông tin liên hệ</h2>
+                <div class="contact-info">
+                    <p>Email: hangthieu88@gmail.com</p>
+                    <p>Điện thoại: 0354859928</p>
+                    <p>Địa chỉ: TP.HCM</p>
+                </div>
+            </div>
+            <!-- Kỹ năng trong khung chữ nhật -->
+            <div class="section">
+                <h2 class="section-title">Kỹ năng</h2>
+                <ul>
+                    <li>Lập trình Python</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Xử lý ngôn ngữ tự nhiên (NLP)</li>
+                    <li>Phân tích dữ liệu</li>
+                    <!-- Thêm các kỹ năng khác -->
+                </ul>
+            </div>
+            <!-- Ngôn ngữ trong khung chữ nhật -->
+            <div class="section">
+                <h2 class="section-title">Ngôn ngữ</h2>
+                <ul>
+                    <li>Tiếng Việt </li>
+                    <li>Tiếng Anh </li>
+                    <li>Tiếng Trung </li>
+
+                    <!-- Thêm ngôn ngữ khác nếu có -->
+                </ul>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <!-- Học vấn trong khung chữ nhật -->
+            <div class="section">
+                <h2 class="section-title">Học vấn</h2>
+                <ul>
+                    <li>
+                        <strong>Đang theo học Công nghệ thông tin</strong> tại <em>Đại học Sài Gòn (SGU)</em> (2022 - 2027)
+                        <ul>
+                            <li>Chuyên ngành: Khoa học máy tính</li>
+                          
+                            <!-- Thêm thành tích nổi bật nếu có -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Sở thích trong khung chữ nhật -->
+            <div class="section">
+                <h2 class="section-title">Sở thích</h2>
+                <p>Nghiên cứu về trí tuệ nhân tạo, đọc sách khoa học viễn tưởng.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
